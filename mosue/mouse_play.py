@@ -1,6 +1,6 @@
 import time
 import mouse
-text=open("E:/mouse1.txt","r")
+text=open("D:/mouse1.txt","r")
 def Mouse_control(line) :
     for i in range(len(line)):
         if line[i]==",":
