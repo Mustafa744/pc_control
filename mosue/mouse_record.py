@@ -1,6 +1,6 @@
 import time
 import mouse
-text=open("E:/mouse1.txt","w")
+text=open("D:/mouse1.txt","w")
 def record_mouse():
     status=""
     if mouse.is_pressed(button="left"):
