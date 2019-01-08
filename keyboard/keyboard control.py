@@ -1,7 +1,7 @@
 import time
 import keyboard
 time.sleep(3)
-text=open("E:/mouse1.txt","r")
+text=open("D:/mouse1.txt","r")
 def Keyboard_control(line) :
     for i in range(len(line)) :
         if line[i]==" ":
